@@ -36,7 +36,7 @@ Example 5:
 Input: s = "([)]"
 Output: false
  */
-public class Valid_Parentheses_20 {
+public class ValidParentheses20 {
     public boolean isValid(String s) {
         Stack<Character>stack=new Stack<>();
         Map<Character,Character> map=new HashMap<>();
