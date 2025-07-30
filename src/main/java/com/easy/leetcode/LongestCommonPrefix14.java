@@ -19,7 +19,7 @@ Explanation: There is no common prefix among the input strings.
 
 import java.util.Arrays;
 
-public class Longest_Common_Prefix_14 {
+public class LongestCommonPrefix14 {
     public String longestCommonPrefix(String[] strs) {
         StringBuilder s=new StringBuilder();
         Arrays.sort(strs);
